@@ -7,7 +7,11 @@ const handleUserInput = function(key) {
   if (key === 'a') { connection.write('Move: left')};
   if (key === 's') { connection.write('Move: down')};
   if (key === 'd') { connection.write('Move: right')};
+  if (key === 'a') { connection.write('Say: so much fun')};
   
+  
+
+
   // \u0003 maps to ctrl+c input
 
 if (key === '\u0003') {
